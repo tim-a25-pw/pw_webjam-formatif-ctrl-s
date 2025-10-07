@@ -3,11 +3,14 @@
    ========================================================================== */
 /// Font family
 :root {
-    --font-primary: 'Montserrat', sans-serif;
-    --font-secondary: 'Fira Code', monospace;
+    --font-primary: "Oswald", sans-serif;
+    --font-secondary: "Ubuntu", sans-serif;
 
-    --font-size-content: #{typo(16px, 18px)};
+    --font-size-content: #{typo(18px)};
 
     /// Grosseur des textes
-    --font-size-h1: #{typo(28px, 42px)};
+    --font-size-h1: #{typo(72px, 120px)};
+    --font-size-h2: #{typo(64px, 85px)};
+    --font-size-h3: #{typo(48px, 54px)};
+    --font-size-h4: #{typo(32px, 32px)};
 }
